@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #00072d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1900px;
+}
+
+/**/
+
+.header_text {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: #FFFFFF;
+    size: 12px;
+    text-align: center;
+}
+
+.block {
+    background-color: #001c55;
+    width: auto;
+    height: auto;
+    min-height: 150px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.flex__block {
+    display: flex;
+
+}
